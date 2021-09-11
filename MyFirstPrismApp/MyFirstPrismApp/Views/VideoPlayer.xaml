@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyFirstPrismApp.Views.VideoPlayer">
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <!-- Your Content Here -->
+        <WebView VerticalOptions="CenterAndExpand"
+                 HorizontalOptions="CenterAndExpand" 
+                 Source="https://www.youtube.com/embed/L2QPDmc2uIo"
+                 WidthRequest="300"
+                 HeightRequest="200"
+                 IsVisible="true" />
+    </StackLayout>
+</ContentPage>
